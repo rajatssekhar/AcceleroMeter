@@ -1,0 +1,141 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Accelerometer */ = {
+		activeExec = 0;
+		executables = (
+			B851720D12F6CC5300D27CB7 /* Accelerometer */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* AccelerometerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 403}}";
+			sepNavSelRange = "{318, 0}";
+			sepNavVisRange = "{0, 358}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* AccelerometerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 1235}}";
+			sepNavSelRange = "{996, 961}";
+			sepNavVisRange = "{818, 966}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B851720D12F6CC5300D27CB7 /* Accelerometer */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Accelerometer */;
+		codeSenseManager = B851721712F6CC5900D27CB7 /* Code sense */;
+		executables = (
+			B851720D12F6CC5300D27CB7 /* Accelerometer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					453,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322691111;
+			PBXWorkspaceStateSaveDate = 322691111;
+		};
+		perUserProjectItems = {
+			B80C6C78133BE07200FD9330 /* PBXTextBookmark */ = B80C6C78133BE07200FD9330 /* PBXTextBookmark */;
+			B80C6C79133BE07200FD9330 /* PBXTextBookmark */ = B80C6C79133BE07200FD9330 /* PBXTextBookmark */;
+			B80C6C7A133BE07200FD9330 /* PBXTextBookmark */ = B80C6C7A133BE07200FD9330 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B851721612F6CC5900D27CB7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	B80C6C78133BE07200FD9330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* AccelerometerViewController.h */;
+		name = "AccelerometerViewController.h: 16";
+		rLen = 0;
+		rLoc = 318;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	B80C6C79133BE07200FD9330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AccelerometerViewController.m */;
+		name = "AccelerometerViewController.m: 65";
+		rLen = 0;
+		rLoc = 1785;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 993;
+	};
+	B80C6C7A133BE07200FD9330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AccelerometerViewController.m */;
+		name = "AccelerometerViewController.m: 42";
+		rLen = 961;
+		rLoc = 996;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 818;
+	};
+	B851720D12F6CC5300D27CB7 /* Accelerometer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Accelerometer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B851721612F6CC5900D27CB7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B851721712F6CC5900D27CB7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

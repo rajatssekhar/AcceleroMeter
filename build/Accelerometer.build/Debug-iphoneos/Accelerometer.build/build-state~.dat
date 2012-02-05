@@ -1,0 +1,429 @@
+TAccelerometer
+v7
+r0
+t321735299.616274
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Accelerometer.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Info.plist" Accelerometer-Info.plist
+cCompileXIB "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/MainWindow.xib"
+cCompileXIB "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/AccelerometerViewController.xib"
+cProcessPCH /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-dyzgjbopuskjlkdaxnhqzxhzywhi/Accelerometer_Prefix.pch.gch Accelerometer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-afunspmejwywzldoqnczrwelupnw/Accelerometer_Prefix.pch.gch Accelerometer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/main.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerAppDelegate.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerViewController.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/main.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerAppDelegate.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer" normal armv6
+cCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerViewController.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer" normal armv7
+cCreateUniversalBinary "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app.dSYM" "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer"
+cProcessProductPackaging "/Users/sathish/Library/MobileDevice/Provisioning Profiles/F3A16B63-90A0-4CFC-8498-A912AA0C2FD7.mobileprovision" "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/embedded.mobileprovision"
+cTouch "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer.xcent"
+cCodeSign "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/AccelerometerViewController.xib
+c000000004D4699CC0000000000004476
+t1296472524
+s17526
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Accelerometer_Prefix.pch
+c000000004D4694D300000000000000C3
+t1296471251
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.h
+c000000004D4694D30000000000000206
+t1296471251
+s518
+i<UIKit/UIKit.h>
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m
+c000000004D4694D30000000000000AB6
+t1296471251
+s2742
+i"AccelerometerAppDelegate.h"
+i"AccelerometerViewController.h"
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.h
+c000000004D4696FD000000000000014C
+t1296471805
+s332
+i<UIKit/UIKit.h>
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m
+c000000004D4697EB000000000000098B
+t1296472043
+s2443
+i"AccelerometerViewController.h"
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/MainWindow.xib
+c000000004D4694D30000000000004E71
+t1296471251
+s20081
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer.xcent
+t1300042499
+s432
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer
+t1300042498
+s22996
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer.LinkFileList
+c000000004D7D13010000000000000205
+t1300042497
+s517
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerAppDelegate.o
+t1300042498
+s50880
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerViewController.o
+t1300042498
+s44332
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/main.o
+t1300042498
+s6508
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer
+t1300042499
+s18792
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer.LinkFileList
+c000000004D7D13010000000000000205
+t1300042497
+s517
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerAppDelegate.o
+t1300042499
+s50796
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerViewController.o
+t1300042499
+s43968
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/main.o
+t1300042498
+s6492
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app
+t1300042499
+s374
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app.dSYM
+t1300042499
+s102
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer
+t1300042499
+s47464
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/AccelerometerViewController.nib
+t1300042497
+s1296
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Info.plist
+t1300042497
+s805
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/MainWindow.nib
+t1300042497
+s1135
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/PkgInfo
+t1300042497
+s8
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/ResourceRules.plist
+t1300042497
+s485
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/embedded.mobileprovision
+t1300042499
+s7233
+
+N/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m
+c000000004D4694D30000000000000172
+t1296471251
+s370
+i<UIKit/UIKit.h>
+
+N/Users/sathish/Library/MobileDevice/Provisioning Profiles/F3A16B63-90A0-4CFC-8498-A912AA0C2FD7.mobileprovision
+c000000004D7CCAB00000000000001C41
+t1300023984
+s7233
+
+N/var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-afunspmejwywzldoqnczrwelupnw/Accelerometer_Prefix.pch.gch
+t1300042498
+s10446552
+
+N/var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-dyzgjbopuskjlkdaxnhqzxhzywhi/Accelerometer_Prefix.pch.gch
+t1300042498
+s9983704
+
+NAccelerometer-Info.plist
+c000000004D4694D3000000000000038D
+t1296471251
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321735296#321735297#0(0"0(0#1#0"8599996992#0"0#
+
+CCodeSign "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app"
+s321735299.137039
+e321735299.616235
+r1
+xCodeSign
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/Accelerometer.app321735299#321735299#0(0"0(0#0#107"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app8625117408#809"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Richard Solomon (7K93AJFT43)" "--resource-rules=/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/ResourceRules.plist" --entitlements "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer.xcent" "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app"0#
+
+CCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerAppDelegate.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321735298.747541
+e321735298.836682
+r1
+xCompileC
+xbuild/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerAppDelegate.o
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m321735298#321735298#0(0"0(0#0#103"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m8629856960#2244"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-generated-files.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-own-target-headers.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-all-target-headers.hmap" -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-project-headers.hmap" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/include" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources/armv6" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources" -include /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-dyzgjbopuskjlkdaxnhqzxhzywhi/Accelerometer_Prefix.pch -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerAppDelegate.o"0#
+
+CCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerViewController.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321735298.801658
+e321735298.907950
+r1
+xCompileC
+xbuild/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerViewController.o
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m321735298#321735298#0(0"0(0#0#106"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m8627970880#2250"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-generated-files.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-own-target-headers.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-all-target-headers.hmap" -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-project-headers.hmap" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/include" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources/armv6" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources" -include /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-dyzgjbopuskjlkdaxnhqzxhzywhi/Accelerometer_Prefix.pch -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/AccelerometerViewController.o"0#
+
+CCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/main.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321735298.746178
+e321735298.801551
+r1
+xCompileC
+xbuild/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/main.o
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m321735298#321735298#0(0"0(0#0#75"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m8628864032#2196"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-generated-files.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-own-target-headers.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-all-target-headers.hmap" -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-project-headers.hmap" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/include" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources/armv6" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources" -include /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-dyzgjbopuskjlkdaxnhqzxhzywhi/Accelerometer_Prefix.pch -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerAppDelegate.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321735298.906723
+e321735299.007825
+r1
+xCompileC
+xbuild/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerAppDelegate.o
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m321735298#321735299#0(0"0(0#0#103"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m8624742656#2244"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-generated-files.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-own-target-headers.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-all-target-headers.hmap" -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-project-headers.hmap" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/include" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources/armv7" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources" -include /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-afunspmejwywzldoqnczrwelupnw/Accelerometer_Prefix.pch -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerAppDelegate.m" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerAppDelegate.o"0#
+
+CCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerViewController.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321735298.963379
+e321735299.038243
+r1
+xCompileC
+xbuild/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerViewController.o
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m321735298#321735299#0(0"0(0#0#106"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m8619700800#2250"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-generated-files.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-own-target-headers.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-all-target-headers.hmap" -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-project-headers.hmap" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/include" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources/armv7" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources" -include /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-afunspmejwywzldoqnczrwelupnw/Accelerometer_Prefix.pch -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Classes/AccelerometerViewController.m" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/AccelerometerViewController.o"0#
+
+CCompileC build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/main.o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321735298.836789
+e321735298.906618
+r1
+xCompileC
+xbuild/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/main.o
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m321735298#321735298#0(0"0(0#0#75"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m8625954496#2196"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-generated-files.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-own-target-headers.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-all-target-headers.hmap" -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-project-headers.hmap" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/include" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources/armv7" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources" -include /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-afunspmejwywzldoqnczrwelupnw/Accelerometer_Prefix.pch -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/main.m" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/AccelerometerViewController.xib"
+s321735297.136614
+e321735297.554071
+r1
+xCompileXIB
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/AccelerometerViewController.xib
+lSLF07#2@42"CompileXIB AccelerometerViewController.xib321735297#321735297#0(0"0(0#0#100"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/AccelerometerViewController.xib8627883136#678"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/AccelerometerViewController.nib" "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/AccelerometerViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/MainWindow.xib"
+s321735297.135873
+e321735297.603102
+r1
+xCompileXIB
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321735297#321735297#0(0"0(0#0#83"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/MainWindow.xib8627924160#644"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/MainWindow.nib" "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/Accelerometer.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s321735297.128105
+e321735297.135785
+r1
+xCpResource
+xbuild/Debug-iphoneos/Accelerometer.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321735297#321735297#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8628208000#564"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app"0#
+
+CCreateUniversalBinary "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer" normal "armv6 armv7"
+s321735299.067645
+e321735299.071177
+r1
+xCreateUniversalBinary
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/Accelerometer.app/Accelerometer normal "armv6 armv7"321735299#321735299#0(0"0(0#0#80"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/armv6 armv78590301248#694"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer" "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer" -output "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer"0#
+
+CGenerateDSYMFile "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app.dSYM" "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer"
+s321735299.071270
+e321735299.111356
+r1
+xGenerateDSYMFile
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app.dSYM
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/Accelerometer.app.dSYM build/Debug-iphoneos/Accelerometer.app/Accelerometer321735299#321735299#0(0"0(0#0#121"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer8626473344#476"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Accelerometer" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app.dSYM"0#
+
+CLd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer" normal armv6
+s321735298.908025
+e321735298.963263
+r1
+xLd
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer
+xnormal
+xarmv6
+lSLF07#2@169"Link /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer321735298#321735298#0(0"0(0#0#0"8622820128#1055"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" -filelist "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv6/Accelerometer"0#
+
+CLd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer" normal armv7
+s321735299.038332
+e321735299.067547
+r1
+xLd
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer
+xnormal
+xarmv7
+lSLF07#2@169"Link /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer321735299#321735299#0(0"0(0#0#0"8610981248#1055"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" -filelist "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Objects-normal/armv7/Accelerometer"0#
+
+CProcessInfoPlistFile "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Info.plist" Accelerometer-Info.plist
+s321735297.129398
+e321735297.132553
+r1
+xProcessInfoPlistFile
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Info.plist
+xAccelerometer-Info.plist
+lSLF07#2@32"Process Accelerometer-Info.plist321735297#321735297#0(0"0(0#0#93"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Accelerometer-Info.plist8628048480#714"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Accelerometer-Info.plist -genpkginfo "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/ResourceRules.plist" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/Info.plist"0#
+
+CProcessPCH /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-afunspmejwywzldoqnczrwelupnw/Accelerometer_Prefix.pch.gch Accelerometer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321735297.604188
+e321735298.746031
+r1
+xProcessPCH
+x/var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-afunspmejwywzldoqnczrwelupnw/Accelerometer_Prefix.pch.gch
+xAccelerometer_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Accelerometer_Prefix.pch321735297#321735298#0(0"0(0#0#93"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Accelerometer_Prefix.pch8628240128#2056"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-generated-files.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-own-target-headers.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-all-target-headers.hmap" -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-project-headers.hmap" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/include" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources/armv7" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources" -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Accelerometer_Prefix.pch" -o /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-afunspmejwywzldoqnczrwelupnw/Accelerometer_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-dyzgjbopuskjlkdaxnhqzxhzywhi/Accelerometer_Prefix.pch.gch Accelerometer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s321735297.603222
+e321735298.666175
+r1
+xProcessPCH
+x/var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-dyzgjbopuskjlkdaxnhqzxhzywhi/Accelerometer_Prefix.pch.gch
+xAccelerometer_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Accelerometer_Prefix.pch321735297#321735298#0(0"0(0#0#93"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Accelerometer_Prefix.pch8628994304#2056"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-generated-files.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-own-target-headers.hmap" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-all-target-headers.hmap" -iquote "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer-project-headers.hmap" "-F/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/include" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources/armv6" "-I/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/DerivedSources" -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/Accelerometer_Prefix.pch" -o /var/folders/ph/phr-Y+XgGnC8KQJUDAn2RE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Accelerometer_Prefix-dyzgjbopuskjlkdaxnhqzxhzywhi/Accelerometer_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/sathish/Library/MobileDevice/Provisioning Profiles/F3A16B63-90A0-4CFC-8498-A912AA0C2FD7.mobileprovision" "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/embedded.mobileprovision"
+s321735299.111453
+e321735299.119631
+r1
+xProcessProductPackaging
+x/Users/sathish/Library/MobileDevice/Provisioning Profiles/F3A16B63-90A0-4CFC-8498-A912AA0C2FD7.mobileprovision
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/sathish/Library/MobileDevice/Provisioning Profiles/F3A16B63-90A0-4CFC-8498-A912AA0C2FD7.mobileprovision" build/Debug-iphoneos/Accelerometer.app/embedded.mobileprovision321735299#321735299#0(0"0(0#0#132"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/embedded.mobileprovision8628497856#495"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sathish/Library/MobileDevice/Provisioning Profiles/F3A16B63-90A0-4CFC-8498-A912AA0C2FD7.mobileprovision" -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer.xcent"
+s321735299.122937
+e321735299.136931
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer.xcent321735299#321735299#0(0"0(0#0#149"/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer.xcent8626129184#514"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Accelerometer.build/Debug-iphoneos/Accelerometer.build/Accelerometer.xcent"0#
+
+CTouch "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app"
+s321735299.119709
+e321735299.122846
+r1
+xTouch
+x/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app
+lSLF07#2@113"Touch /Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app321735299#321735299#0(0"0(0#0#0"8628000928#334"    cd "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/sathish/Documents/iPhone Mobile App/iPhone Apps/Accelerometer/build/Debug-iphoneos/Accelerometer.app"0#
+
